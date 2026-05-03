@@ -4,6 +4,7 @@ CALSCALE:GREGORIAN
 PRODID:f1calendar.com
 METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP0_2026_qualifying
 SUMMARY:F1: Clasificación (Gran Premio de Australia)
@@ -16,6 +17,7 @@ LOCATION:Melbourne
 STATUS:CONFIRMED
 CATEGORIES:Clasificación,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP0_2026_gp
 SUMMARY:F1: Gran Premio (Gran Premio de Australia)
@@ -28,6 +30,7 @@ LOCATION:Melbourne
 STATUS:CONFIRMED
 CATEGORIES:Gran Premio,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP1_2026_qualifying
 SUMMARY:F1: Clasificación (Gran Premio de China)
@@ -40,6 +43,7 @@ LOCATION:Shanghai
 STATUS:CONFIRMED
 CATEGORIES:Clasificación,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP1_2026_gp
 SUMMARY:F1: Gran Premio (Gran Premio de China)
@@ -52,6 +56,7 @@ LOCATION:Shanghai
 STATUS:CONFIRMED
 CATEGORIES:Gran Premio,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP2_2026_qualifying
 SUMMARY:F1: Clasificación (Gran Premio de Japón)
@@ -64,6 +69,7 @@ LOCATION:Suzuka
 STATUS:CONFIRMED
 CATEGORIES:Clasificación,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP2_2026_gp
 SUMMARY:F1: Gran Premio (Gran Premio de Japón)
@@ -76,78 +82,33 @@ LOCATION:Suzuka
 STATUS:CONFIRMED
 CATEGORIES:Gran Premio,F1
 END:VEVENT
-BEGIN:VEVENT
-UID:http://2026.f1calendar.com/#GP3_2026_qualifying
-SUMMARY:F1: Clasificación (Gran Premio de Baréin)
-DTSTAMP:20251207T170658Z
-DTSTART:20260411T160000Z
-DTEND:20260411T170000Z
-SEQUENCE:2026
-GEO:26.037;50.5112
-LOCATION:Sakhir
-STATUS:CONFIRMED
-CATEGORIES:Clasificación,F1
-END:VEVENT
-BEGIN:VEVENT
-UID:http://2026.f1calendar.com/#GP3_2026_gp
-SUMMARY:F1: Gran Premio (Gran Premio de Baréin)
-DTSTAMP:20251207T170658Z
-DTSTART:20260412T150000Z
-DTEND:20260412T170000Z
-SEQUENCE:2026
-GEO:26.037;50.5112
-LOCATION:Sakhir
-STATUS:CONFIRMED
-CATEGORIES:Gran Premio,F1
-END:VEVENT
-BEGIN:VEVENT
-UID:http://2026.f1calendar.com/#GP4_2026_qualifying
-SUMMARY:F1: Clasificación (Gran Premio de Arabia Saudita)
-DTSTAMP:20251207T170658Z
-DTSTART:20260418T170000Z
-DTEND:20260418T180000Z
-SEQUENCE:2026
-GEO:21.485811;39.192505
-LOCATION:Jeddah
-STATUS:CONFIRMED
-CATEGORIES:Clasificación,F1
-END:VEVENT
-BEGIN:VEVENT
-UID:http://2026.f1calendar.com/#GP4_2026_gp
-SUMMARY:F1: Gran Premio (Gran Premio de Arabia Saudita)
-DTSTAMP:20251207T170658Z
-DTSTART:20260419T170000Z
-DTEND:20260419T190000Z
-SEQUENCE:2026
-GEO:21.485811;39.192505
-LOCATION:Jeddah
-STATUS:CONFIRMED
-CATEGORIES:Gran Premio,F1
-END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP5_2026_qualifying
 SUMMARY:F1: Clasificación (Gran Premio de Miami)
 DTSTAMP:20251207T170658Z
-DTSTART:20260502T200000Z
-DTEND:20260502T210000Z
+DTSTART:20260502T170000Z
+DTEND:20260502T180000Z
 SEQUENCE:2026
 GEO:25.957764;-80.238835
 LOCATION:Miami
 STATUS:CONFIRMED
 CATEGORIES:Clasificación,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP5_2026_gp
 SUMMARY:F1: Gran Premio (Gran Premio de Miami)
 DTSTAMP:20251207T170658Z
-DTSTART:20260503T200000Z
-DTEND:20260503T220000Z
+DTSTART:20260503T2170000Z
+DTEND:20260503T190000Z
 SEQUENCE:2026
 GEO:25.957764;-80.238835
 LOCATION:Miami
 STATUS:CONFIRMED
 CATEGORIES:Gran Premio,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP6_2026_qualifying
 SUMMARY:F1: Clasificación (Gran Premio de Canadá)
@@ -160,6 +121,7 @@ LOCATION:Montreal
 STATUS:CONFIRMED
 CATEGORIES:Clasificación,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP6_2026_gp
 SUMMARY:F1: Gran Premio (Gran Premio de Canadá)
@@ -172,6 +134,7 @@ LOCATION:Montreal
 STATUS:CONFIRMED
 CATEGORIES:Gran Premio,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP7_2026_qualifying
 SUMMARY:F1: Clasificación (Gran Premio de Mónaco)
@@ -184,6 +147,7 @@ LOCATION:Monte Carlo
 STATUS:CONFIRMED
 CATEGORIES:Clasificación,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP7_2026_gp
 SUMMARY:F1: Gran Premio (Gran Premio de Mónaco)
@@ -196,6 +160,7 @@ LOCATION:Monte Carlo
 STATUS:CONFIRMED
 CATEGORIES:Gran Premio,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP8_2026_qualifying
 SUMMARY:F1: Clasificación (Barcelona-Catalunya)
@@ -208,6 +173,7 @@ LOCATION:Barcelona
 STATUS:CONFIRMED
 CATEGORIES:Clasificación,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP8_2026_gp
 SUMMARY:F1: Gran Premio (Barcelona-Catalunya)
@@ -220,6 +186,7 @@ LOCATION:Barcelona
 STATUS:CONFIRMED
 CATEGORIES:Gran Premio,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP9_2026_qualifying
 SUMMARY:F1: Clasificación (Gran Premio de Austria)
@@ -232,6 +199,7 @@ LOCATION:Spielberg
 STATUS:CONFIRMED
 CATEGORIES:Clasificación,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP9_2026_gp
 SUMMARY:F1: Gran Premio (Gran Premio de Austria)
@@ -244,6 +212,7 @@ LOCATION:Spielberg
 STATUS:CONFIRMED
 CATEGORIES:Gran Premio,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP10_2026_qualifying
 SUMMARY:F1: Clasificación (Gran Premio de Gran Bretaña)
@@ -256,6 +225,7 @@ LOCATION:Silverstone
 STATUS:CONFIRMED
 CATEGORIES:Clasificación,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP10_2026_gp
 SUMMARY:F1: Gran Premio (Gran Premio de Gran Bretaña)
@@ -268,6 +238,7 @@ LOCATION:Silverstone
 STATUS:CONFIRMED
 CATEGORIES:Gran Premio,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP11_2026_qualifying
 SUMMARY:F1: Clasificación (Gran Premio de Bélgica)
@@ -280,6 +251,7 @@ LOCATION:Spa-Francorchamps
 STATUS:CONFIRMED
 CATEGORIES:Clasificación,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP11_2026_gp
 SUMMARY:F1: Gran Premio (Gran Premio de Bélgica)
@@ -292,6 +264,7 @@ LOCATION:Spa-Francorchamps
 STATUS:CONFIRMED
 CATEGORIES:Gran Premio,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP12_2026_qualifying
 SUMMARY:F1: Clasificación (Gran Premio de Hungría)
@@ -304,6 +277,7 @@ LOCATION:Budapest
 STATUS:CONFIRMED
 CATEGORIES:Clasificación,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP12_2026_gp
 SUMMARY:F1: Gran Premio (Gran Premio de Hungría)
@@ -316,6 +290,7 @@ LOCATION:Budapest
 STATUS:CONFIRMED
 CATEGORIES:Gran Premio,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP13_2026_qualifying
 SUMMARY:F1: Clasificación (Gran Premio de los Países Bajos)
@@ -328,6 +303,7 @@ LOCATION:Zandvoort
 STATUS:CONFIRMED
 CATEGORIES:Clasificación,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP13_2026_gp
 SUMMARY:F1: Gran Premio (Gran Premio de los Países Bajos)
@@ -340,6 +316,7 @@ LOCATION:Zandvoort
 STATUS:CONFIRMED
 CATEGORIES:Gran Premio,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP14_2026_qualifying
 SUMMARY:F1: Clasificación (Gran Premio de Italia)
@@ -352,6 +329,7 @@ LOCATION:Monza
 STATUS:CONFIRMED
 CATEGORIES:Clasificación,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP14_2026_gp
 SUMMARY:F1: Gran Premio (Gran Premio de Italia)
@@ -364,6 +342,7 @@ LOCATION:Monza
 STATUS:CONFIRMED
 CATEGORIES:Gran Premio,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP15_2026_qualifying
 SUMMARY:F1: Clasificación (Gran Premio de España)
@@ -376,6 +355,7 @@ LOCATION:Madrid
 STATUS:CONFIRMED
 CATEGORIES:Clasificación,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP15_2026_gp
 SUMMARY:F1: Gran Premio (Gran Premio de España)
@@ -388,6 +368,7 @@ LOCATION:Madrid
 STATUS:CONFIRMED
 CATEGORIES:Gran Premio,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP16_2026_qualifying
 SUMMARY:F1: Clasificación (Gran Premio de Azerbaiyán)
@@ -400,6 +381,7 @@ LOCATION:Baku
 STATUS:CONFIRMED
 CATEGORIES:Clasificación,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP16_2026_gp
 SUMMARY:F1: Gran Premio (Gran Premio de Azerbaiyán)
@@ -412,6 +394,7 @@ LOCATION:Baku
 STATUS:CONFIRMED
 CATEGORIES:Gran Premio,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP17_2026_qualifying
 SUMMARY:F1: Clasificación (Gran Premio de Singapur)
@@ -424,6 +407,7 @@ LOCATION:Singapore
 STATUS:CONFIRMED
 CATEGORIES:Clasificación,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP17_2026_gp
 SUMMARY:F1: Gran Premio (Gran Premio de Singapur)
@@ -436,6 +420,7 @@ LOCATION:Singapore
 STATUS:CONFIRMED
 CATEGORIES:Gran Premio,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP18_2026_qualifying
 SUMMARY:F1: Clasificación (Gran Premio de los Estados Unidos)
@@ -448,6 +433,7 @@ LOCATION:Austin
 STATUS:CONFIRMED
 CATEGORIES:Clasificación,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP18_2026_gp
 SUMMARY:F1: Gran Premio (Gran Premio de los Estados Unidos)
@@ -460,6 +446,7 @@ LOCATION:Austin
 STATUS:CONFIRMED
 CATEGORIES:Gran Premio,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP19_2026_qualifying
 SUMMARY:F1: Clasificación (Gran Premio de México)
@@ -472,6 +459,7 @@ LOCATION:Mexico City
 STATUS:CONFIRMED
 CATEGORIES:Clasificación,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP19_2026_gp
 SUMMARY:F1: Gran Premio (Gran Premio de México)
@@ -484,6 +472,7 @@ LOCATION:Mexico City
 STATUS:CONFIRMED
 CATEGORIES:Gran Premio,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP20_2026_qualifying
 SUMMARY:F1: Clasificación (Gran Premio de Brasil)
@@ -496,6 +485,7 @@ LOCATION:Sao Paulo
 STATUS:CONFIRMED
 CATEGORIES:Clasificación,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP20_2026_gp
 SUMMARY:F1: Gran Premio (Gran Premio de Brasil)
@@ -508,6 +498,7 @@ LOCATION:Sao Paulo
 STATUS:CONFIRMED
 CATEGORIES:Gran Premio,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP21_2026_qualifying
 SUMMARY:F1: Clasificación (Gran Premio de Las Vegas)
@@ -520,6 +511,7 @@ LOCATION:Las Vegas
 STATUS:CONFIRMED
 CATEGORIES:Clasificación,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP21_2026_gp
 SUMMARY:F1: Gran Premio (Gran Premio de Las Vegas)
@@ -532,6 +524,7 @@ LOCATION:Las Vegas
 STATUS:CONFIRMED
 CATEGORIES:Gran Premio,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP22_2026_qualifying
 SUMMARY:F1: Clasificación (Gran Premio de Catar)
@@ -544,6 +537,7 @@ LOCATION:Doha
 STATUS:CONFIRMED
 CATEGORIES:Clasificación,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP22_2026_gp
 SUMMARY:F1: Gran Premio (Gran Premio de Catar)
@@ -556,6 +550,7 @@ LOCATION:Doha
 STATUS:CONFIRMED
 CATEGORIES:Gran Premio,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP23_2026_qualifying
 SUMMARY:F1: Clasificación (Gran Premio de Abu Dabi)
@@ -568,6 +563,7 @@ LOCATION:Yas Marina
 STATUS:CONFIRMED
 CATEGORIES:Clasificación,F1
 END:VEVENT
+
 BEGIN:VEVENT
 UID:http://2026.f1calendar.com/#GP23_2026_gp
 SUMMARY:F1: Gran Premio (Gran Premio de Abu Dabi)
